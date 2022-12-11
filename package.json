@@ -1,0 +1,10 @@
+{
+  "name": "hackwagon22",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.1.0"
+  }
+}
