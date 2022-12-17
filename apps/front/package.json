@@ -1,0 +1,27 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diajelovic/HackWagon22.git"
+  },
+  "keywords": [
+    "frontend"
+  ],
+  "author": "Bersival",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diajelovic/HackWagon22/issues"
+  },
+  "homepage": "https://github.com/diajelovic/HackWagon22#readme",
+  "dependencies": {
+    "create-react-app": "^5.0.1",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
