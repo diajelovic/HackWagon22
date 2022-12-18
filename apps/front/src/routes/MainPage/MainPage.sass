@@ -1,0 +1,140 @@
+@import "../../constants/const-styles.sass"
+.mainpage_container
+    transition: 2s
+.mainpage_container
+    .starting_mainpage
+        transition: 2s
+        overflow-x: hidden
+        max-width: 100% 
+        .mainpage_header
+            width: 1920px
+            height: 1080px
+            background-size: 600px 1080px
+            background-repeat: no-repeat
+            padding: 100px 235px 0px
+            margin-bottom: 20px
+            .mainpage_main_block
+                position: relative
+                margin-left: 730px
+                margin-bottom: 151px
+                font-family: TTOctosquares-Light !important
+                h1.mainpage_main_header
+                    font-size: 96px
+                    line-height: 134px
+            .mainpage_navigation_section
+                display: flex
+                width: 100%
+                justify-content: space-between
+                align-items: center
+                margin-bottom: 130px
+                p
+            .mainpage_navbar
+                display: flex
+                ul
+                    @include reset-list
+                    display: flex
+                    .mainpage_navbar_item_colored
+                        background-color: $red-color
+                        border-radius: 50px
+                        height: 67px
+                        width: 157px
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        position: relative
+                        top: -15px
+                        right: 10px
+                        a
+                            color: $white-color !important
+                    li.mainpage_navbar_item
+                        
+                        position: relative
+                        // overflow: hidden
+                        &:not(:last-child)
+                            margin-right: 64px
+                        &:not(:last-child)::before
+                            position: absolute
+                            content: ""
+                            transition: $reg-transition - 0.2s
+                            width: 0
+                            height: 2px
+                            background-color: $blue-color
+                            bottom: 15px
+                            left: 50%
+                            transform: translateX(-50%)
+                        &:not(:last-child):hover::before
+                            width: 100%
+                        a
+                            text-decoration: none
+                            color: $blue-color   
+        .mainpage_infoSection
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: center
+
+
+
+
+
+.mainpage_container
+    .responced_mainpage
+        transition: 2s
+        overflow-x: hidden
+        max-width: 100% 
+        .mainpage_header
+            width: 1920px
+            height: 477px
+            background-size: 100% 100%
+            padding: 100px 235px 0px
+            margin-bottom: 20px
+            .mainpage_navigation_section
+                display: flex
+                width: 100%
+                justify-content: space-between
+                align-items: center
+                margin-bottom: 130px
+                p
+            .mainpage_navbar
+                display: flex
+                ul
+                    @include reset-list
+                    display: flex
+                    .mainpage_navbar_item_colored
+                        background-color: $red-color
+                        border-radius: 50px
+                        height: 67px
+                        width: 157px
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        position: relative
+                        top: -15px
+                        right: 10px
+
+                    li.mainpage_navbar_item
+
+                        position: relative
+                        // overflow: hidden
+                        &:not(:last-child)
+                            margin-right: 64px
+                        &:not(:last-child)::before
+                            position: absolute
+                            content: ""
+                            transition: $reg-transition - 0.2s
+                            width: 0
+                            height: 2px
+                            background-color: $white-color
+                            bottom: 15px
+                            left: 50%
+                            transform: translateX(-50%)
+                        &:not(:last-child):hover::before
+                            width: 100%
+                        a
+                            color: $white-color
+                            text-decoration: none
+        .mainpage_infoSection
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: center

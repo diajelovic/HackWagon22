@@ -1,0 +1,39 @@
+@import "./constants/const-styles.sass"
+
+  @font-face
+  font-family: TTHoves-Regular
+  src: url(./fonts/TTHoves-Regular.otf)
+@font-face 
+  font-family: TTOctosquares-DBold
+  src: url(./fonts/TTOctosquares-DBold.otf)
+@font-face 
+  font-family: TTOctosquares-Light
+  src: url(./fonts/TTOctosquares-Light.otf)
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+html, body, #root, .app_container
+    width: 100vw
+    height: 100vh
+    background-color: transparent
+    display: flex
+    align-items: flex-start
+    justify-content: center
+    max-width: 100%
+.app_wrapper
+    width: 1920px
+    max-width: 100%
+    // background-color: #f1f1f1
+    min-height: 1080px 
+    display: flex
+    // align-items: center
+    justify-content: center
+@media screen and (max-width: 1450px)
+    .app_wrapper
+        min-height: none
+        overflow-x: hidden
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        height: 667px
