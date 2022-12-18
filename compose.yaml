@@ -1,0 +1,27 @@
+services:
+  server:
+    working_dir: /app
+    build:
+      context: ./apps/server
+      dockerfile: ./docker/Dockerfile
+    command: npm run start:dev
+    environment:
+      ENV: development
+      PORT: 3030
+    ports:
+      - 3030:3030
+    volumes:
+      - ./apps/server/src:/app/src
+  front:
+    working_dir: /app
+    build:
+      context: ./apps/front
+      dockerfile: ./docker/Dockerfile
+    command: npm run start
+    environment:
+      ENV: development
+      PORT: 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./apps/front/src:/app/src

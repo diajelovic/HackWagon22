@@ -6,8 +6,7 @@ import MainPage from './routes/MainPage/MainPage';
 
 const App = () => {
   useEffect(() => {
-    fetch("http::/localhost:3000").then(res => console.log(res)) // Todo: replace to axios
-    
+    // fetch("http://localhost:3030").then(res => res.text()).then(res => console.log(res)) // Todo: replace to axios
   }, [])
   return (
     <div className="container app_container">
