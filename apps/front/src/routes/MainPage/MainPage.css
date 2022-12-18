@@ -80,16 +80,15 @@ img {
 }
 .mainpage_container .starting_mainpage .mainpage_header {
   width: 1920px;
-  height: 1080px;
+  min-height: 100vh;
   background-size: 600px 1080px;
   background-repeat: no-repeat;
-  padding: 100px 235px 0px;
-  margin-bottom: 20px;
+  padding: 50px 235px 100px;
 }
 .mainpage_container .starting_mainpage .mainpage_header .mainpage_main_block {
   position: relative;
   margin-left: 730px;
-  margin-bottom: 151px;
+  margin-bottom: 50px;
   font-family: TTOctosquares-Light !important;
 }
 .mainpage_container .starting_mainpage .mainpage_header .mainpage_main_block h1.mainpage_main_header {
@@ -107,7 +106,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
 }
 .mainpage_container .starting_mainpage .mainpage_header .mainpage_navbar {
   display: -webkit-box;

@@ -30,7 +30,9 @@ services:
     build:
       context: ./apps/data
       dockerfile: ./docker/Dockerfile
+    environment:
+      PORT: 3050
     ports:
-      - 8000:8000
+      - 3050:3050
     volumes:
       - ./apps/data:/app
