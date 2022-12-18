@@ -1,0 +1,83 @@
+@import "../fonts/fonts.sass"
+// colors
+$red-color: #8A2432
+$black-color: #000000
+$blue-color: #19282F
+$orange-color: #FF7312
+$white-color: #ffffff
+$lightgrey-color: #C6C6C6
+$grey-color: #868C92
+
+// variables
+$reg-transition: 0.35s
+// Fonts
+// @import './fonts/fonts.sass'
+@media screen and (min-width: 980px)
+	.header-font
+		font-family: 'TTOctosquares-DBold'
+		font-style: normal
+		font-weight: 400
+		font-size: 40px
+		line-height: 56px
+
+	.subtitle-font
+		font-family: 'TTOctosquares-Light'
+		font-style: normal
+		font-weight: 400
+		font-size: 36px
+		line-height: 50px
+
+	.text-font
+		font-family: 'TTHoves-Regular'
+		font-style: normal
+		font-weight: 400
+		font-size: 32px
+		line-height: 35px
+		text-align: center
+
+	.desc-font
+		font-family: 'TTHoves-Regular'
+		font-style: normal
+		font-weight: 400
+		font-size: 20px
+		line-height: 24px
+@media screen and (max-width: 981px)
+	.header-font
+		font-family: 'TTOctosquares-DBold'
+		font-style: normal
+		font-weight: 400
+		font-size: 32px
+		line-height: 45px
+
+	.subtitle-font
+		font-family: 'TTOctosquares-Light'
+		font-style: normal
+		font-weight: 400
+		font-size: 20px
+		line-height: 28px
+
+	.text-font
+		font-family: 'TTHoves-Regular'
+		font-style: normal
+		font-weight: 100
+		font-size: 16px
+		line-height: 19px
+		text-align: center
+
+	.desc-font
+		font-family: 'TTHoves-Regular'
+		font-style: normal
+		font-weight: 400
+		font-size: 14px
+		line-height: 19px
+// mixins
+@mixin button-reset
+	outline: none
+	border: none
+
+@mixin reset-list
+	list-style: none
+	& li
+		list-style: none
+img
+	user-select: none

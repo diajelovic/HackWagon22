@@ -1,0 +1,68 @@
+@media screen and (min-width: 980px) {
+  .header-font {
+    font-family: "TTOctosquares-DBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .subtitle-font {
+    font-family: "TTOctosquares-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .text-font {
+    font-family: "NeueMachina-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .desc-font {
+    font-family: "NeueMachina-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 981px) {
+  .header-font {
+    font-family: "TTOctosquares-DBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 56px;
+  }
+  .subtitle-font {
+    font-family: "TTOctosquares-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+  }
+  .text-font {
+    font-family: "NeueMachina-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .desc-font {
+    font-family: "NeueMachina-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}

@@ -1,0 +1,332 @@
+@media screen and (min-width: 980px) {
+  .header-font {
+    font-family: "TTOctosquares-DBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .subtitle-font {
+    font-family: "TTOctosquares-Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .text-font {
+    font-family: "TTHoves-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .desc-font {
+    font-family: "TTHoves-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 981px) {
+  .header-font {
+    font-family: "TTOctosquares-DBold";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .subtitle-font {
+    font-family: "TTOctosquares-Light";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .text-font {
+    font-family: "TTHoves-Regular";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .desc-font {
+    font-family: "TTHoves-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+@media screen and (min-width: 1450px) {
+  .searchbar_form {
+    width: 1440px;
+    max-width: 1451px;
+    -webkit-box-shadow: 0px 2px 10px -2px rgba(25, 40, 47, 0.35);
+            box-shadow: 0px 2px 10px -2px rgba(25, 40, 47, 0.35);
+    border-radius: 50px;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+  }
+  .searchbar_form input::-webkit-input-placeholder {
+    -webkit-user-select: none;
+            user-select: none;
+  }
+  .searchbar_form input::-moz-placeholder {
+    -moz-user-select: none;
+         user-select: none;
+  }
+  .searchbar_form input:-ms-input-placeholder {
+    -ms-user-select: none;
+        user-select: none;
+  }
+  .searchbar_form input::-ms-input-placeholder {
+    -ms-user-select: none;
+        user-select: none;
+  }
+  .searchbar_form button, .searchbar_form input::placeholder {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .searchbar_form .input_section {
+    width: 545px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .searchbar_form .input_section .redCircle_wrapper_m {
+    display: none;
+  }
+  .searchbar_form .input_section .redCircle_wrapper_d {
+    position: absolute;
+    top: 50%;
+    left: 44px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .searchbar_form input, .searchbar_form label, .searchbar_form button {
+    height: 80px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+  }
+  .searchbar_form input {
+    width: 100%;
+  }
+  .searchbar_form input[type=text] {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px;
+    padding-left: 88px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input::-webkit-input-placeholder {
+    font-size: 30px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input::-moz-placeholder {
+    font-size: 30px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input:-ms-input-placeholder {
+    font-size: 30px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input::-ms-input-placeholder {
+    font-size: 30px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input::placeholder {
+    font-size: 30px;
+    font-family: TTHoves-Regular;
+  }
+  .searchbar_form input:nth-child(2) {
+    border-left: 2px solid #C6C6C6;
+  }
+  .searchbar_form .searchbar_departure_input {
+    border-radius: 50px 0 0 50px !important;
+  }
+  .searchbar_form label {
+    min-width: 80px !important;
+    height: 80px !important;
+    border-left: 2px solid #C6C6C6;
+    border-right: 2px solid #C6C6C6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .searchbar_form label:hover {
+    cursor: pointer;
+  }
+  .searchbar_form button {
+    outline: none;
+    border: none;
+    background-color: #8A2432;
+    color: #ffffff;
+    width: 273px;
+    border-radius: 0 50px 50px 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .searchbar_form button:hover {
+    cursor: pointer;
+  }
+  .searchbar_form .searchbar_date_input {
+    width: 0;
+  }
+  .searchbar_form .searchbar_date_input::-webkit-calendar-picker-indicator {
+    width: 0;
+    height: 0;
+  }
+  .searchbar_form .icon_m {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1449px) {
+  .searchbar_form {
+    width: 375px;
+    height: 342px;
+    max-width: 100%;
+    border-radius: 50px;
+    padding: 0 24px;
+    padding-top: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .searchbar_form input, .searchbar_form label, .searchbar_form button {
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+  }
+  .searchbar_form .input_section {
+    width: 280px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .searchbar_form .input_section .redCircle_wrapper_d {
+    display: none;
+  }
+  .searchbar_form .input_section .redCircle_wrapper_m {
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .searchbar_form input {
+    width: 100%;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input::-webkit-input-placeholder {
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input::-moz-placeholder {
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input:-ms-input-placeholder {
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input::-ms-input-placeholder {
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input::placeholder {
+    font-size: 16px;
+    font-family: TTHoves-Regular !important;
+  }
+  .searchbar_form input:nth-child(1) {
+    border-bottom: 1px solid #868C92;
+    padding-bottom: 8px;
+  }
+  .searchbar_form input:nth-child(2) {
+    margin-bottom: 12px;
+  }
+  .searchbar_form input[type=date] {
+    margin-bottom: 12px;
+    width: 280px;
+    padding-left: 60px;
+  }
+  .searchbar_form label:not(.icon_m) {
+    display: none;
+  }
+  .searchbar_form .icon_m {
+    position: relative;
+    top: -46px;
+    left: -150px;
+  }
+  .searchbar_form button {
+    outline: none;
+    border: none;
+    background-color: #8A2432 !important;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    font-size: 16px !important;
+    border-radius: 50px;
+  }
+  .searchbar_date_input {
+    color: #19282F;
+  }
+  .searchbar_date_input::-webkit-calendar-picker-indicator {
+    display: none;
+  }
+}

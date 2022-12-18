@@ -4,7 +4,13 @@
   "workspaces": [
     "apps/*"
   ],
+  "scripts": {
+    "dev": "docker-compose build && docker-compose up"
+  },
   "devDependencies": {
     "lerna": "^6.1.0"
+  },
+  "dependencies": {
+    "prettier": "^2.8.1"
   }
 }
