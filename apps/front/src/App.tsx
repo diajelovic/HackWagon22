@@ -4,12 +4,11 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    fetch("http::/localhost:3000").then(res => console.log(res)) // Todo: replace to axios
-    
+    fetch("http://localhost:3030").then(res => res.text()).then(res => console.log(res)) // Todo: replace to axios
   }, [])
   return (
     <div className="app app_container">
-      101
+      102
     </div>
   );
 }
