@@ -1,11 +1,13 @@
 # Hackwagon 22
 
+use `Docker` for start microservices
+
 --- 
 ## Structure
 
 `apps/front` - frontend directory
 `apps/server` - backend directory
-`apps/data-model` - data model directory
+`apps/data` - data model directory
 
 ---
 
@@ -19,4 +21,4 @@ Add package
 
 ## Run project
 
-`npm run start`
+`npm run dev`

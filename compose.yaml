@@ -25,3 +25,12 @@ services:
       - 3000:3000
     volumes:
       - ./apps/front/src:/app/src
+  ds:
+    working_dir: /app
+    build:
+      context: ./apps/data
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - ./apps/data:/app
