@@ -2,7 +2,7 @@ import { Injectable, Inject, CACHE_MANAGER } from '@nestjs/common';
 import { Cache } from 'cache-manager';
 import { parse } from 'csv-parse';
 import { join } from 'path';
-import { createReadStream, read } from 'fs';
+import { createReadStream } from 'fs';
 
 const MAX_STATIONS = 10;
 
