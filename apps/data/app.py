@@ -5,10 +5,8 @@ from catboost import CatBoostRegressor
 
 
 class vagon(BaseModel):
-    'st_code_snd': int
-    'st_code_rsv': int
-
-
+    st_code_snd: int
+    st_code_rsv: int
 
 class VagonModel:
 

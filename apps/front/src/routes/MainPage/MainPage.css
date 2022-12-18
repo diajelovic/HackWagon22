@@ -79,7 +79,6 @@ img {
   max-width: 100%;
 }
 .mainpage_container .starting_mainpage .mainpage_header {
-  width: 1920px;
   min-height: 100vh;
   background-size: 600px 1080px;
   background-repeat: no-repeat;
@@ -189,11 +188,9 @@ img {
   max-width: 100%;
 }
 .mainpage_container .responced_mainpage .mainpage_header {
-  width: 1920px;
   height: 477px;
   background-size: 100% 100%;
-  padding: 100px 235px 0px;
-  margin-bottom: 20px;
+  padding: 100px 235px 0;
 }
 .mainpage_container .responced_mainpage .mainpage_header .mainpage_navigation_section {
   display: -webkit-box;
